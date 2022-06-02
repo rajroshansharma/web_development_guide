@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+/* .big_box{
+    position: relative;
+} */
+
+.img_contain_90 img{
+    height: 50%; /*if the height of image is 100px by using 50% it becomes 50px */
+    width: 50%;
+}
+
+.big_box p{
+    color: white;
+    border: groove;
+    font-weight: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    text-align: center;
+}
+
+/* text on the image and image centered illustrated */
+
+.big_box{
+    position: relative;
+}
+
+.img_contain_90{
+    position: absolute;
+    z-index: 0;
+}
+.text_contain_90{
+    position: absolute;
+    z-index: 1;
+    /* came into center */
+    margin: 0 auto;
+    top:0;
+    left: 0;
+    right: 0;
+    /* putting down */
+    margin-top: 12%;
+}
